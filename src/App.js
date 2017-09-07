@@ -31,7 +31,9 @@ let cardsList = [
         done: false
       }
     ]
-  }
+  },
 ];
 
-React.render(<TastTracker cards={cardsList} />, document.getElementById('root'));
+
+React.render(<TaskTracker cards={cardsList} />, document.getElementById('root'));
+

@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 
-class Checklist extends Component {
+class CheckList extends Component {
   render() {
     let tasks = this.props.tasks.map((task) => (
       <li className="checklist_task">
