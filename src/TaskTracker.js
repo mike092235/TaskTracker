@@ -1,3 +1,7 @@
+// The TaskTracker component will receive the data as props
+// and will be responsible for filtering the status to create
+// three list components: "To Do", "In Progress", and "Done"
+
 import React, { Component } from 'react';
 import List from './List';
 
